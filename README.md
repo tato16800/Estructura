@@ -9,6 +9,13 @@
 #### Diaframa de flujo
 ![DiagramaDeFlujo](/img/Diagrama%20de%20fluyo.png)
 
+#### Taller
+![Taller](/img/Taller.png)
+
+#### Taller Con Objetos
+![Objetos](/img/Objetos2.png)
+![Objetos2](/img/Objetos1.png)
+
 #### Pseudocodigo
 
         Inicio
