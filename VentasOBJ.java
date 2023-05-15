@@ -1,31 +1,16 @@
 import java.util.Scanner;
 
-<<<<<<< HEAD
-/**
- *
- * @author A340
- */
-=======
->>>>>>> 0926718 (Segundo)
-public class Taller {
-
+public class VentasOBJ {
     public static void main(String[] args) {
        int tam;
        Scanner insert = new Scanner(System.in);
        System.out.println("Digite el numero de clientes");
        tam = insert.nextInt();
+       
+       VentasPOO[] admin = new VentasPOO[tam];
         
-       int ced[];
-       ced = new int [tam];
-       int comp1[];
-       comp1 = new int [tam];
-       int comp2[];
-       comp2 = new int[tam];
-       int comp3[];
-       comp3 = new int[tam];
-       String nombres[];
-       nombres = new String [tam];
-       int com1,com2,com3,promedio,ids,i;
+       int com1,com2,com3,ids,i;
+       double promedio;
        String nom;
        promedio = 0;
        
@@ -41,12 +26,16 @@ public class Taller {
            com2 = insert.nextInt();
            System.out.println("Digite el valor del tercer computador");
            com3 = insert.nextInt();
-           ced[i] = ids;
-           nombres[i] = nom;
-           comp1[i] = com1;
-           comp2[i] = com2;
-           comp3[i] = com3;
-           promedio +=((comp1[i] + comp2[i] + comp3[i])/3)/tam;
+           
+           VentasPOO sell = new VentasPOO();
+           
+           sell.id = ids;
+           sell.nombres = nom;
+           sell.comp1 = com1;
+           sell.comp2 = com2;
+           sell.comp3 = com3;
+           admin[i] = sell;
+           promedio +=((admin[i].comp1 + admin[i].comp2 + admin[i].comp3)/3)/tam;
        }
        
        System.out.println("El promedio de ventas fue: " + promedio);
