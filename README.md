@@ -1,22 +1,49 @@
 # Estructura de datos
+- - -
+
 ## Primer taller
+- - -
+
 #### Historia de usuario
+*****
+
 ![HistoriaUsuario](/img/Historia%20de%20Usuarios.png)
+*****
 
 #### Casos de uso
+*****
+
 ![CasosDeUso](/img/Casos%20de%20uso.png)
+Descripcion del caso de uso
+Nombre: Calcular el promedio de ventas de computador
+Actores: Aministrador
+Proposito: Poder promediar las ventas de computadores diarias
+###### Curso Normal de eventos:
+* El administrador ingresa la cantidad de clientes.
+* El administrador ingresa la cedula del cliente, nombre y el valor de venta de los computadores.
+* Se calcula el promedio a partir de: (∑(Computador 1,Computador 2,Computador 3) / Cantidad de computadores) / Cantidad de clientes.
+* Se calcula el promedio de ventas del dia.
+*****
 
 #### Diaframa de flujo
+*****
 ![DiagramaDeFlujo](/img/Diagrama%20de%20fluyo.png)
+*****
 
 #### Taller
+*****
 ![Taller](/img/Taller.png)
+*****
 
 #### Taller Con Objetos
+*****
 ![Objetos](/img/Objetos2.png)
+*****
 ![Objetos2](/img/Objetos1.png)
+*****
 
 #### Pseudocodigo
+*****
 
         Inicio
 
@@ -75,3 +102,4 @@
                 Imprimir "El promedio de notas es: " + promedio
 
         Fin 
+*****
