@@ -1,7 +1,27 @@
-# Estructura de datos
+# Empresa de Tauret
+- - -
+La empresa Tauret administrada por **Alejandro Castillo** Con el proposito de realizar,
+mantenimiento preventivo y venta de equipos de computo.
+
+Necesita realizar un software/api especializado para el calculo de un promedio del total
+de ventas por cliente que se realizen por jornada.
+
+El administrador necesita ingresar los siguiente datos del usuario:
+* Identificacion
+* Nombre
+* El valor de los productos
+
 - - -
 
-## Primer taller
+Para el realize del software/api se requiere:
+* Historia de usuario
+* Caso de uso
+* Diagrama del flujo del software
+* Pseudocodigo del software
+* Funcionamiento
+
+
+
 - - -
 
 #### Historia de usuario
@@ -34,6 +54,10 @@ Proposito: Poder promediar las ventas de computadores diarias
 *****
 ![Taller](/img/Taller.png)
 *****
+#### Funcionamiento
+*****
+![Procedimiento](/img/Procedimiento1.png)
+*****
 
 #### Taller Con Objetos
 *****
@@ -41,6 +65,10 @@ Proposito: Poder promediar las ventas de computadores diarias
 *****
 ![Objetos2](/img/Objetos1.png)
 *****
+
+#### Funcionamiento
+*****
+![Procedimiento2](/img/Procedimiento2.png)
 
 #### Pseudocodigo
 *****
